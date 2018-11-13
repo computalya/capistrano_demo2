@@ -11,7 +11,7 @@ set :puma_workers,    0
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/var/www/capistrano_demo"
+set :deploy_to, "/var/www/capistrano_demo2"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh

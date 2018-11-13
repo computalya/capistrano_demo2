@@ -93,5 +93,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
   
   # enable app_name.domain
-  config.action_dispatch.tld_length = 0
+  config.action_dispatch.tld_length = 1
 end

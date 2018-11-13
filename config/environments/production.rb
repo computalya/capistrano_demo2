@@ -91,4 +91,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+  
+  # enable app_name.domain
+  config.action_dispatch.tld_length = 0
 end

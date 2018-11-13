@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.0"
 
-set :application, "capistrano_demo"
-set :repo_url, "git@github.com:computalya/capistrano_demo.git"
+set :application, "capistrano_demo2"
+set :repo_url, "git@github.com:computalya/capistrano_demo2.git"
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0

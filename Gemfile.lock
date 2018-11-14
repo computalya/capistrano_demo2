@@ -79,6 +79,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.2)
     crass (1.0.4)
+    ed25519 (1.2.4)
     erubi (1.7.1)
     execjs (2.7.0)
     faker (1.9.1)
@@ -207,6 +208,7 @@ DEPENDENCIES
   capistrano-rvm
   capistrano3-puma
   coffee-rails (~> 4.2)
+  ed25519
   faker
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
